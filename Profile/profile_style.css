@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: black;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.main-container{
+    width: 90%;
+    margin: 60px auto 0px;
+}
+.profile-div{
+    margin-bottom: 10px;
+}
+.main-container h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.names-div, .password-div{
+    display: flex;
+    flex-direction: column;
+}
+.main-container input{
+    margin-block: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+.main-container button{
+    padding: 8px 40px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#change-password-btn{
+    display: block;
+    padding-inline: 10px;
+}
+#logout{
+    padding-inline: 47px;
+}
+#saveInfo-btn{
+    margin: 0px;
+}
+
+
+.buttons #change-password-btn{
+    margin: 0px;
+}
+.msg-btn-div{
+    /* border: 1px solid seagreen; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#message2, #message{
+    width: fit-content;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    display: none;
+}
+.error{
+    color: red;
+}
+.successful{
+    color: green;
+}

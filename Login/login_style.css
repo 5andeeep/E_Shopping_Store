@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: black;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.logo a{
+    font-size: 20px;
+    color: white;
+}
+.other-page-links a{
+    color: #dfdfdfdf;
+    margin-left: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+.other-page-links a:hover{
+    color: white;
+}
+.login-div{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 50px;
+    /* display: flex;
+    flex-direction: column;
+    row-gap: 20px; */
+}
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-div p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.login-div input{
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+#login-btn{
+    width: 150px;
+    padding: 8px 40px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+.msg-btn-div{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+#message{
+    width: fit-content;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    display: none;
+}
+.error{
+    color: red;
+}
+.successful{
+    color: green;
+}
+

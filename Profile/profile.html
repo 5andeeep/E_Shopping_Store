@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping App</title>
+    <link rel="stylesheet" href="profile_style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="../Home/home.html">Shopping Cart</a>
+    </div>
+    <div class="main-container">
+        <div class="profile-div">
+            <h1>My Profile</h1>
+            <form id="inputs" class="inputs">
+                <div class="names-div">
+                    <input type="text" id="first-name" placeholder="First Name">
+                    <input type="text" id="last-name" placeholder="Last Name">
+                </div>
+                <div class="msg-btn-div">
+                    <button id="saveInfo-btn">Save Info</button>
+                    <span id="message">Hello</span>
+                </div>
+            </form>
+        </div>
+        <div class="edit-password-div">
+            <h1>Edit Password</h1>
+            <form id="inputs2" class="inputs">
+                <div class="password-div">
+                    <input type="password" id="old-pass" placeholder="Old Password">
+                    <input type="password" id="new-pass" placeholder="New Password">
+                    <input type="password" id="conf-new-pass" placeholder="Confirm New Password">
+                </div>
+                <div class="buttons">
+                    <div class="msg-btn-div">
+                        <button id="change-password-btn">Change Password</button>
+                        <span id="message2">Hello</span>
+                    </div>
+                    <button id="logout" >Logout</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="profile_script.js"></script>
+</body>
+</html>
